@@ -1,0 +1,396 @@
+body {
+	background-color: rgb(228, 96, 193);
+}
+.logo1 {
+position: absolute;
+left: 33px;
+width: 7vw;
+
+}
+
+.bananas1 {
+	position: absolute;
+	top: 140px;
+	left: 790px;
+	width: 25vw;
+	transform: rotate(-5deg);
+}
+.dolly1 {
+	position: absolute;
+	top: 195px;
+	left: 920px;
+	width: 25vw;
+	transform: rotate(8deg);
+}
+.keith1 {
+	position: absolute;
+	top: 255px;
+	left: 720px;
+	width: 25vw;
+	transform: rotate(3.5deg);
+
+}
+.andy1 {
+	position: absolute;
+	top: 240px;
+	left: 850px;
+	width: 25vw;
+
+}
+
+.adult {
+top: 18px;
+left: 785px;
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 28px;
+font-weight: 400;
+font-style: normal;
+
+}
+
+.adultprice {
+top: 18px;
+left: 835px;
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 28px;
+font-weight: 400;
+font-style: normal;
+color: rgb(255, 255, 255);
+
+}
+
+.senior {
+top: 18px;
+left: 876px;
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 28px;
+font-weight: 400;
+font-style: normal;
+}
+
+.seniorprice {
+top: 18px;
+left: 979px;
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 28px;
+font-weight: 400;
+font-style: normal;
+color: rgb(255, 255, 255);
+
+}
+
+.student {
+top: 18px;
+left: 1017px;
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 28px;
+font-weight: 400;
+font-style: normal;
+
+}
+
+.studentprice {
+top: 18px;
+left: 1087px;
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 28px;
+font-weight: 400;
+font-style: normal;
+color: rgb(255, 255, 255);
+
+}
+
+
+.studentid {
+top: 0px;
+left: 1017px;
+position: absolute;
+font-family: abolition, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+.millitary {
+top: 18px;
+left: 1125px;
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 28px;
+font-weight: 400;
+font-style: normal;
+
+}
+
+.millitaryid{
+top: 0px;
+left: 1125px;
+position: absolute;
+font-family: abolition, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+.millitaryprice {
+top: 18px;
+left: 1205px;
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 28px;
+font-weight: 400;
+font-style: normal;
+color: rgb(255, 255, 255);
+
+}
+
+.children{
+top: 18px;
+left: 1243px;
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 28px;
+font-weight: 400;
+font-style: normal;
+
+}
+
+.childrenprice {
+top: 18px;
+left: 1399px;
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 28px;
+font-weight: 400;
+font-style: normal;
+color: rgb(255, 255, 255);	
+
+}
+
+.highlighttext {
+position: absolute;
+left: 70px;
+top: 166px;
+color: rgb(255, 255, 255);
+
+}
+
+.andywhite {
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 117px;
+font-weight: 400;
+font-style: normal;
+color: rgb(255, 255, 255);
+
+}
+
+.warholwhite {
+position: absolute;
+left: 210px;
+top: 115px;
+font-family: abolition, sans-serif;
+font-size: 117px;
+font-weight: 400;
+font-style: normal;
+color: rgb(255, 255, 255);
+
+}
+
+.photowhite {
+position: absolute;
+top:  235px;
+font-family: abolition, sans-serif;
+font-size: 117px;
+font-weight: 400;
+font-style: normal;
+color: rgb(255, 255, 255);
+
+}
+
+.factorywhite {
+position: absolute;
+left: 210px;
+top: 355px;
+font-family: abolition, sans-serif;
+font-size: 117px;
+font-weight: 400;
+font-style: normal;
+color: rgb(255, 255, 255);
+
+}
+
+.shadowtext {
+position: absolute;
+left: 65px;
+top: 176px;
+}
+
+.andyblack {
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 117px;
+font-weight: 400;
+font-style: normal;
+
+
+}
+
+.warholblack {
+position: absolute;
+left: 210px;
+top: 115px;
+font-family: abolition, sans-serif;
+font-size: 117px;
+font-weight: 400;
+font-style: normal;
+
+}
+
+.photoblack {
+position: absolute;
+top:  235px;
+font-family: abolition, sans-serif;
+font-size: 117px;
+font-weight: 400;
+font-style: normal;
+
+}
+
+.factoryblack {
+position: absolute;
+left: 210px;
+top: 355px;
+font-family: abolition, sans-serif;
+font-size: 117px;
+font-weight: 400;
+font-style: normal;
+
+}
+
+.outlinetext {
+position: absolute;
+left: 70px;
+top: 196px;
+width: 500px;
+
+}
+
+.limitedoutline {
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 33px;
+font-weight: 400;
+font-style: normal;
+left: 250px;
+color: rgb(228, 96, 193);
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: white;
+
+}
+
+.exhibitionoutline {
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 33px;
+font-weight: 400;
+font-style: normal;
+top: 33px;
+left: 250px;
+color: rgb(228, 96, 193);
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: white;
+
+}
+
+.dayoutline {
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 33px;
+font-weight: 400;
+font-style: normal;
+top: 233px;
+left: 250px;
+color: rgb(228, 96, 193);
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: white;
+
+}
+
+.timeoutline {
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 33px;
+font-weight: 400;
+font-style: normal;
+top: 266px;
+left: 250px;
+color: rgb(228, 96, 193);
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: white;
+
+}
+
+.displayoutline {
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 33px;
+font-weight: 400;
+font-style: normal;
+top: 120px;
+color: rgb(228, 96, 193);
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: white;
+
+}
+
+.dateoutline {
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 33px;
+font-weight: 400;
+font-style: normal;
+top: 153px;
+color: rgb(228, 96, 193);
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: white;
+
+}
+
+.addressoutline {
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 33px;
+font-weight: 400;
+font-style: normal;
+top: 350px;
+color: rgb(228, 96, 193);
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: white;
+
+}
+
+.nyoutline {
+position: absolute;
+font-family: abolition, sans-serif;
+font-size: 33px;
+font-weight: 400;
+font-style: normal;
+top: 383px;
+color: rgb(228, 96, 193);
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: white;
+
+}
+
+@media (max width: 390px) {
+	.logo1 {
+		width: 25vw;
+	}
+}
