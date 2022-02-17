@@ -1,0 +1,241 @@
+body{
+	background-color: black;
+}
+.mug1{
+	position: absolute;
+	left: 300px;
+	top: 350px;
+}
+.mug1body{
+	width: 300px;
+	height: 340px;
+	background-color: rgb(235, 235, 235);
+}
+.beer1{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 260px;
+	height: 300px;
+	background-color: rgb(239, 185, 75);
+}
+.beer1cover{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 260px;
+	height: 300px;
+	background-color: rgb(235, 235, 235);
+	animation-name: animationA;
+  	animation-duration: 15s;
+  	animation-delay: 0.5s;
+ 	animation-timing-function: linear;
+ 	animation-direction: reverse;
+ 	animation-fill-mode: forwards;
+  	animation-iteration-count: initial;  
+}
+.mug1handle1{
+	position: absolute;
+	left: -45px;
+	top: 70px;
+	background-color: rgb(235, 235, 235);
+	width: 45px;
+	height: 25px;
+}
+.mug1handle2{
+	position: absolute;
+	left: -70px;
+	top: 70px;
+	background-color: rgb(235, 235, 235);
+	width: 25px;
+	height: 180px;
+}
+.mug1handle3{
+	position: absolute;
+	left: -45px;
+	top: 225px;
+	background-color: rgb(235, 235, 235);
+	width: 45px;
+	height: 25px;
+}
+.tap1{
+	position: absolute;
+	left: 410px;
+	top: 0px;
+}
+.tap1body{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: rgb(200 16 46);
+}
+.tap1spout{
+	position: absolute;
+	top: 100px;
+	width: 60px;
+	left: 19px;
+	height: 70px;
+	background-color: dimgrey;
+}
+.tap1stream{
+	position: absolute;
+	top: 170px;
+	width: 20px;
+	left: 39px;
+	height: 500px;
+	background-color: rgb(239, 185, 75);
+	animation-name: animationB;
+  animation-duration: 15.5s;
+ 	animation-timing-function: linear;
+ 	animation-fill-mode: forwards;
+  	animation-iteration-count: initial;  
+}
+.mug2{
+	position: absolute;
+	left: 800px;
+	top: 350px;
+}
+.mug2body{
+	width: 300px;
+	height: 340px;
+	background-color: rgb(235, 235, 235);
+}
+.beer2{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 260px;
+	height: 300px;
+	background-color: rgb(239, 185, 75);
+}
+.beer2cover{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 260px;
+	height: 300px;
+	background-color: rgb(235, 235, 235);
+	animation-name: animationA;
+  	animation-duration: 5s;
+  	animation-delay: 0.5s;
+ 	animation-timing-function: linear;
+ 	animation-fill-mode: forwards;
+ 	animation-direction: reverse;
+  	animation-iteration-count: 3;  
+}
+.mug2handle1{
+	position: absolute;
+	left: 300px;
+	top: 70px;
+	background-color: rgb(235, 235, 235);
+	width: 45px;
+	height: 25px;
+}
+.mug2handle2{
+	position: absolute;
+	left: 345px;
+	top: 70px;
+	background-color: rgb(235, 235, 235);
+	width: 25px;
+	height: 180px;
+}
+.mug2handle3{
+	position: absolute;
+	left: 300px;
+	top: 225px;
+	background-color: rgb(235, 235, 235);
+	width: 45px;
+	height: 25px;
+}
+.tap2{
+	position: absolute;
+	left: 910px;
+	top: 0px;
+}
+.tap2body{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: rgb(200 16 46);
+}
+.tap2spout{
+	position: absolute;
+	top: 100px;
+	width: 60px;
+	left: 19px;
+	height: 70px;
+	background-color: dimgrey;
+}
+.tap2stream{
+	position: absolute;
+	top: 170px;
+	width: 50px;
+	left: 24px;
+	height: 500px;
+	background-color: rgb(239, 185, 75);
+	animation-name: animationB;
+  	animation-duration: 15.5s;
+ 	animation-timing-function: linear;
+ 	animation-fill-mode: forwards;
+  	animation-iteration-count: initial;  
+
+}
+.mug2.alarm{
+	left: 700px;
+	animation-name: mug2;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+.mug1.alarm{
+	left: 400px;
+	animation-name: mug1;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes animationA {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 300px;
+ }
+}
+@keyframes animationB {
+  0% {
+    height: 0px;
+  }
+  1% {
+  	height: 500px;
+  }
+  99% {
+  	height: 500px;
+  }
+  100% {
+    height: 0px;
+ }
+}
+@keyframes mug2 {
+	 0% {
+   	left: 800px;
+   }
+   50% {
+   	left: 700px;
+   }
+   	100% {
+   		left: 800px;
+   	}
+ }
+@keyframes mug1 {
+	 0% {
+   	left: 300px;
+   }
+   50%{
+   	left: 400px;
+   }
+   	100% {
+   		left: 300px;
+   	}
+ }
