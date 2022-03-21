@@ -131,8 +131,9 @@ body {
   bottom: 85px;  
   }
 .npc.was-interacted {
-  opacity: 0;
+  background-image: url("./img/npc-sprite-after.png");
   transition: opacity 400ms linear;
+  animation-timing-function: steps(3);
 }
 
 .preload-image {
